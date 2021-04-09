@@ -1,0 +1,31 @@
+.projectBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    background-color: aliceblue;
+}
+
+.iconBlock {
+    height: 180px;
+    width: 250px;
+    background-color: darkolivegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    background-color: burlywood;
+    text-decoration: none;
+}
+
+.title {
+
+}
+
+
+.description {
+
+}
