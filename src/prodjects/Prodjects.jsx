@@ -23,8 +23,8 @@ function Projects() {
             <div className={styles.container}>
                 <Title title={'My projects'}/>
                 <div className={styles.projects}>
-                    <Project title={'Social Network'} style={social} description={"I just want to start..."}/>
-                    <Project title={'To-Do List'} style={tdl} description={"...a flaming in your hearth"}/>
+                    <Project title={'Social Network'} link={'https://github.com/MaxFas/ToDoList'} style={social} description={"I just want to start..."}/>
+                    <Project title={'To-Do List'} link={'https://github.com/MaxFas/SocialNetwork'} style={tdl} description={"...a flaming in your hearth"}/>
                 </div>
             </div>
         </div>

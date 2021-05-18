@@ -6,6 +6,7 @@ import Skills from "./skills/Skills";
 import Projects from "./prodjects/Prodjects";
 import {Contact} from "./contacts/Contact";
 import Footer from "./footer/Footer";
+import './App.css';
 
 function App() {
   return (
