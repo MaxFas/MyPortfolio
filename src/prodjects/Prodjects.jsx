@@ -1,16 +1,30 @@
 import styles from './Prodjects.module.css';
 import React from "react";
 import Project from "./project/Prodject";
+import Title from "../commons/components/Title";
+import tdlImg from "./../assets/imgs/tdl.jpg"
+import snImg from "./../assets/imgs/sn.jpg"
 
 function Projects() {
+
+    const tdl= {
+        color: 'blue',
+        backgroundImage: `url(${tdlImg})`,
+    };
+
+
+    const social = {
+        color: 'blue',
+        backgroundImage: `url(${snImg})`,
+    };
+
     return (
         <div className={styles.projectsBlock}>
             <div className={styles.container}>
-                <h2 className={styles.title}>MY PROJECTS</h2>
+                <Title title={'My projects'}/>
                 <div className={styles.projects}>
-                    <Project title={'Counter'} description={"I dont want to set the world on fire"}/>
-                    <Project title={'Social Network'} description={"I just want to start..."}/>
-                    <Project title={'To-Do List'} description={"...a flaming in your hearth"}/>
+                    <Project title={'Social Network'} style={social} description={"I just want to start..."}/>
+                    <Project title={'To-Do List'} style={tdl} description={"...a flaming in your hearth"}/>
                 </div>
             </div>
         </div>
