@@ -4,14 +4,31 @@
     align-items: center;
     text-align: center;
     width: 250px;
-    background-color: aliceblue;
+    margin-bottom: 20px;
+    padding: 0 10px;
 }
-.description {
 
+.skillTitle {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+    line-height: 1.2;
+    color: white;
+}
+
+.description {
+    line-height: 1.8;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
 }
 
 .icon {
     height: 60px;
-    width: 60px;
-    background-color: darkolivegreen;
+    width: 65px;
+    margin: 5px 0 5px;
+    background-size: cover;
+    background-position: center;
 }
