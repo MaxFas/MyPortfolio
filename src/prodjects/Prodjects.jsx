@@ -19,12 +19,14 @@ function Projects() {
     };
 
     return (
-        <div className={styles.projectsBlock}>
+        <div id='projects' className={styles.projectsBlock}>
             <div className={styles.container}>
                 <Title title={'My projects'}/>
                 <div className={styles.projects}>
-                    <Project title={'Social Network'} link={'https://github.com/MaxFas/ToDoList'} style={social} description={"I just want to start..."}/>
-                    <Project title={'To-Do List'} link={'https://github.com/MaxFas/SocialNetwork'} style={tdl} description={"...a flaming in your hearth"}/>
+                    <Project title={'Social Network'} link={'https://maxfas.github.io/SocialNetwork/'}
+                             style={social} description={"Gradual implementation of a full-fledged social network (login, displaying users, sending messages, creating your own page)"}/>
+                    <Project title={'To-Do List'} link={'https://maxfas.github.io/ToDoList/'} style={tdl}
+                             description={"An application where you can plan your tasks list. Implemented remove, create and change tasks.Also done work on error handling"}/>
                 </div>
             </div>
         </div>

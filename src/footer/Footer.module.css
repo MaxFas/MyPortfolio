@@ -19,21 +19,27 @@
     color: #fff;
     font-size: 22px;
     font-weight: 700;
-    margin-bottom: 20px;
     display: block;
     text-decoration: none;
 }
 
 .LinksContainer {
-    background-color: olive;
     display: flex;
     width: 50%;
     justify-content: space-between;
 }
 .linkContainer {
-
-    background-color: teal;
+    display: flex;
     height: 50px;
     width: 50px;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.linkContainer a {
+    width: 100%;
+    height: 100%;
 }
 
